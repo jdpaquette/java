@@ -1,4 +1,4 @@
-//"You Do It - pg130 - Farrell Java Programming"
+//Chapter 2 - "You Do It - pg130 - Farrell Java Programming"
 //created by Joseph Paquette
 
 import java.util.Scanner;
