@@ -7,6 +7,7 @@ class TimesAndInstructors
 {
     public static void main(String[] args) 
     {
+        String[][] course = new String[10][3];
         course[0][0] = "COM-140";
         course[0][1] = "TR 9:30am";
         course[0][2] = "McGinnis";
@@ -43,7 +44,7 @@ class TimesAndInstructors
         boolean onList = false;
         while (!onList)
         {
-           entry = JOptionPane.showInputDialog(null, message);
+           crsEntry = JOptionPane.showInputDialog(null, message);
            for(x = 0; x < course.length; ++ x)
               if(crsEntry.equals(course[x][0]))
               {
