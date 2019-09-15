@@ -1,5 +1,5 @@
 //Farrell - Java Programming - Chapter 6 - Problem 9 
-//created / revised by Joe Paquette May 2019
+//created / revised by Joe Paquette Sept. 8th, 2019
 
 public class IncreasedProduction
 {

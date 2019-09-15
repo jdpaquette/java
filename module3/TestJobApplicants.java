@@ -1,5 +1,5 @@
 //Farrell - Java Programming - Chapter 5 - Problem 7b
-//created / revised by Joe Paquette May 2019
+//created / revised by Joe Paquette Sept. 8th 2019
 
 import java.util.Scanner;
 public class TestJobApplicants
@@ -56,6 +56,6 @@ public class TestJobApplicants
    public static void display(JobApplicant app, String msg)
    {
       System.out.println(app.getName() + " " + msg +
-         "  Phone: " + app.getPhone());
+         "  Phone: " + app.getPhoneNumber());
    }
 }

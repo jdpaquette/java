@@ -1,5 +1,5 @@
 //Farrell - Java Programming - Exercise 5b
-//created / revised by Joe Paquette May 2019
+//created / revised by Joe Paquette Sept. 8th, 2019
 
 import java.util.*;
 import java.time.*;

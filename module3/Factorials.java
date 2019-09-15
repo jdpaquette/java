@@ -1,5 +1,5 @@
 //Farrell - Java Programming - Chapter 6 - Problem 3 
-//created / revised by Joe Paquette May 2019
+//created / revised by Joe Paquette Setp 8th, 2019
 
 public class Factorials
 {
