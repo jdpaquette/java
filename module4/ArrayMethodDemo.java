@@ -12,7 +12,7 @@ public class ArrayMethodDemo
         displayReverse(values);
         displaySum(values);
         displayLessThan(values, maxVal);
-        diplayHigherThanAverage(values);
+        displayHigherThanAverage(values);
     }
     public static void display(int[] values)
     {
@@ -35,7 +35,7 @@ public class ArrayMethodDemo
         }
         System.out.println("\nThe sum of all values is " + sum);
     }
-    public static void displayLessThan(int[] values, int max)
+    public static void displayLessThan(int[] values, int maxVal)
     {
         for(int i = 0; i < values.length; i++)
             if(values[i] < maxVal)
