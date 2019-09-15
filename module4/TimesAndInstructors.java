@@ -7,36 +7,54 @@ class TimesAndInstructors
 {
     public static void main(String[] args) 
     {
-        courses[0][0] = "COM-140";
-        courses[0][1] = "TR 9:30am";
-        courses[0][2] = "McGinnis";
-        courses[1][0] = "COM-140";
-        courses[1][1] = "MWF 8:30am";
-        courses[1][2] = "Adams";
-        courses[2][0] = "COM-207";
-        courses[2][1] = "MWF 11:30am";
-        courses[2][2] = "Reagan";
-        courses[3][0] = "COM-207";
-        courses[3][1] = "TR 11:00am";
-        courses[3][2] = "Banisakher";
-        courses[4][0] = "COM-209";
-        courses[4][1] = "TR 2:00pm";
-        courses[4][2] = "Banisakher";
-        courses[5][0] = "COM-302";
-        courses[5][1] = "MWF 11:30am";
-        courses[5][2] = "Adams";
-        courses[6][0] = "COM-327";
-        courses[6][1] = "MWF 9:30am";
-        courses[6][2] = "Bal";
-        courses[7][0] = "COM-330";
-        courses[7][1] = "TR 8:00am";
-        courses[7][2] = "Omar";
-        courses[8][0] = "COM-340";
-        courses[8][1] = "MWF 1:30pm";
-        courses[8][2] = "Reagan";
-        courses[9][0] = "COM-405";
-        courses[9][1] = "MWF 2:30pm";
-        courses[9][2] = "Kirshnan";
-    
+        course[0][0] = "COM-140";
+        course[0][1] = "TR 9:30am";
+        course[0][2] = "McGinnis";
+        course[1][0] = "COM-140";
+        course[1][1] = "MWF 8:30am";
+        course[1][2] = "Adams";
+        course[2][0] = "COM-207";
+        course[2][1] = "MWF 11:30am";
+        course[2][2] = "Reagan";
+        course[3][0] = "COM-207";
+        course[3][1] = "TR 11:00am";
+        course[3][2] = "Banisakher";
+        course[4][0] = "COM-209";
+        course[4][1] = "TR 2:00pm";
+        course[4][2] = "Banisakher";
+        course[5][0] = "COM-302";
+        course[5][1] = "MWF 11:30am";
+        course[5][2] = "Adams";
+        course[6][0] = "COM-327";
+        course[6][1] = "MWF 9:30am";
+        course[6][2] = "Bal";
+        course[7][0] = "COM-330";
+        course[7][1] = "TR 8:00am";
+        course[7][2] = "Omar";
+        course[8][0] = "COM-340";
+        course[8][1] = "MWF 1:30pm";
+        course[8][2] = "Reagan";
+        course[9][0] = "COM-405";
+        course[9][1] = "MWF 2:30pm";
+        course[9][2] = "Kirshnan";
+
+        String crsEntry,  message ="Enter a course:";
+        int number, x;
+        boolean onList = false;
+        while (!onList)
+        {
+           entry = JOptionPane.showInputDialog(null, message);
+           for(x = 0; x < course.length; ++ x)
+              if(crsEntry.equals(course[x][0]))
+              {
+                 onList = true;
+                 JOptionPane.showMessageDialog(null,
+                    "Course: " + crsEntry + " Time: " + course[x][1] +
+                    " Professor: " + course[x][2]);
+              }
+           if(!onList)
+              JOptionPane.showMessageDialog(null, "That course is not on the list");
+        }
+      
     }  
 }
