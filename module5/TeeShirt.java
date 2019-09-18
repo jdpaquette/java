@@ -8,7 +8,7 @@ public class TeeShirt
     private String shirtSize;
     private double shirtPrice;
     private String color;
-    public void setOrderNumber (int number)
+    public void setOrderNumber(int number)
     {
         orderNumber = number;
     }
@@ -30,7 +30,7 @@ public class TeeShirt
     }
     public String getSize()
     {
-        return size;
+        return shirtSize;
     }
     public String getColor()
     {
