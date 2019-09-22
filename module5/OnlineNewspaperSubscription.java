@@ -4,19 +4,19 @@
 
 public class OnlineNewspaperSubscription extends NewspaperSubscription
 {
-   public void setAddress(String add)
+   public void setSubAddress(String add)
    {
       boolean hasSymbol = false;
       subAddress = add;
       for(int x = 0; x < add.length(); ++x)
-         if(add.charAt(x) == '@')
+         if(add.charSymbol(x) == '@')
             hasSymbol = true;
       if(hasSymbol)
          subRate = 9.00;
       else
       {
          subRate = 0;
-         System.out.print("\nAddress must contain an "at"-symbol (@)   ");
+         System.out.print("\nAddress must contain an 'at'(@)-symbol   ");
       }
    }
 

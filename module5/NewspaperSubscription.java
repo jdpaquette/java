@@ -7,15 +7,15 @@ public abstract class NewspaperSubscription
    protected String subName;
    protected String subAddress;
    protected double subRate;
-   public String getName()
+   public String getSubName()
    {
       return subName;
    }
-   public void setName(String name)
+   public void setSubName(String name)
    {
       subName = name;
    }
-   public String getAddress()
+   public String getSubAddress()
    {
       return subAddress;
    }
@@ -23,5 +23,5 @@ public abstract class NewspaperSubscription
    {
       return subRate;
    }
-   public abstract void setAddress(String s);
+   public abstract void setSubAddress(String s);
 }
