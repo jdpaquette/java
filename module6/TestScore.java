@@ -7,8 +7,8 @@ public class TestScore
 {
    public static void main(String args[]) throws Exception
    {
-      int[] stuIds = {1234, 2345, 3456, 4567, 5678};
-      int[] stuScores = {0, 0, 0, 0, 0};
+      int[] stuIds = {1515, 2525, 3535, 4545, 5555, 6565, 7575, 8585};
+      int[] stuScores = {0, 0, 0, 0, 0, 0, 0, 0};
       String scoreString = new String();
       final int maxScore = 100;
       String inString, outString = "";
