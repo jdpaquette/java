@@ -22,7 +22,7 @@ public class Course
     {
        boolean isBad = false;
        String msg = "";
-       crsdepartment = deptartment;
+       crsDepartment = deptartment;
        crsNumber = number;
        crsCredits = credits;
        if(deptartment.length() != crsNumLength)
