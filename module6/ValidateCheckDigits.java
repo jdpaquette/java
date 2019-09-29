@@ -12,9 +12,9 @@ public class ValidateCheckDigits
    public static void main(String[] args)
    {
       Path fileIn =
-         Paths.get("G:\Java\module6\validateIn.txt");
+         Paths.get("G:\\Java\\module6\\validateIn.txt");
       Path fileOut =
-         Paths.get("G:\Java\module6\validateOut.txt");
+         Paths.get("G:\\Java\\module6\\validateOut.txt");
       String accounts;
       int acctNumbers;
       int finalNumeral;
