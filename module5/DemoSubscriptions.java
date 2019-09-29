@@ -20,12 +20,12 @@ public class DemoSubscriptions
       olsubGood.setSubAddress("donald.duck@waltdisney.com");
       display(olsubGood);
       olsubBad.setSubName("Mickey Mouse");
-      olsubBad.setSubAddress("mickey.mouse@waltdisney.co,");
+      olsubBad.setSubAddress("mickey.mouse@waltdisney.com");
       display(olsubBad); 
    }
    public static void display(NewspaperSubscription name)
    {
-      System.out.println("Name: " + name.getSubName() + "   Address: " +
-         name.getSubAddress() + "   Rate: " + name.getSubRate() + "\n");
+      System.out.println("Subscription Name: " + name.getSubName() + "   Subscription Address: " +
+         name.getSubAddress() + "   Subscription Rate: $" + name.getSubRate() + "\n");
    }
 }

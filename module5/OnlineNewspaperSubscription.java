@@ -9,7 +9,7 @@ public class OnlineNewspaperSubscription extends NewspaperSubscription
       boolean hasSymbol = false;
       subAddress = add;
       for(int x = 0; x < add.length(); ++x)
-         if(add.charSymbol(x) == '@')
+         if(add.charAt(x) == '@')
             hasSymbol = true;
       if(hasSymbol)
          subRate = 9.00;

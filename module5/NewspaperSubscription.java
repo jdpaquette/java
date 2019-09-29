@@ -19,7 +19,7 @@ public abstract class NewspaperSubscription
    {
       return subAddress;
    }
-   public double getRate()
+   public double getSubRate()
    {
       return subRate;
    }

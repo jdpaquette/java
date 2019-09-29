@@ -7,9 +7,9 @@ public class PhysicalNewspaperSubscription extends NewspaperSubscription
    public void setSubAddress(String add)
    {
       boolean hasNumeral = false;
-      address = add;
+      subAddress = add;
       for(int x = 0; x < add.length(); ++x)
-         if(Character.isNumeral(add.charAt(x)))
+         if(Character.isDigit(add.charAt(x)))
             hasNumeral = true;
       if(hasNumeral)
          subRate = 15.00;
