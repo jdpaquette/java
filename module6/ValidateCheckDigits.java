@@ -1,5 +1,5 @@
 //Farrell - Java Programming - Chapter 13 - Problem 6
-// Exception Handling
+// File Input Output
 //created / revised by Joe Paquette Sept. 29th 2019
 
 import java.nio.file.*;
