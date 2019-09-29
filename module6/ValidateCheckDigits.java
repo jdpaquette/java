@@ -12,9 +12,9 @@ public class ValidateCheckDigits
    public static void main(String[] args)
    {
       Path valuesIn =
-         Paths.get("C:\Users\zephy\Desktop\\validateIn.txt");
+         Paths.get("G:\Java\module6\\validateIn.txt");
       Path valuesOut =
-         Paths.get("C:\Users\zephy\Desktop\\validateOut.txt");
+         Paths.get("G:\Java\module6\\validateOut.txt");
       String accounts;
       int acctNumbers;
       int finalNumeral;
