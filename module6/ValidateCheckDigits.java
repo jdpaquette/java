@@ -11,10 +11,10 @@ public class ValidateCheckDigits
 {
    public static void main(String[] args)
    {
-      Path valuesIn =
-         Paths.get("G:\Java\module6\\validateIn.txt");
-      Path valuesOut =
-         Paths.get("G:\Java\module6\\validateOut.txt");
+      Path fileIn =
+         Paths.get("G:\Java\module6\validateIn.txt");
+      Path fileOut =
+         Paths.get("G:\Java\module6\validateOut.txt");
       String accounts;
       int acctNumbers;
       int finalNumeral;
@@ -29,12 +29,12 @@ public class ValidateCheckDigits
          input = Files.newInputStream(fileIn);
          BufferedReader reader = new BufferedReader
             (new InputStreamReader(input));
-         output = Files.newOutputStream(valuesOut);
+         output = Files.newOutputStream(fileOut);
          accounts = reader.readLine();
          while(accounts != null)
          {
             sum = 0;
-            acctNumbers = Integer.parseInt(acct);
+            acctNumbers = Integer.parseInt(accounts);
             finalNumeral = acctNumbers % 10; // modulo leaves the remainder...
             acctNumbers = acctNumbers / 10;
             for(x = 0; x < 6; x++) 
