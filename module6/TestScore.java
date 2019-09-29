@@ -32,7 +32,7 @@ public class TestScore
           }
        }
        for(int x = 0; x < stuIds.length; ++x)
-         outString = outString + "Student ID #" + ids[x] + "  Grade " +
+         outString = outString + "Student ID #" + stuIds[x] + "  Grade " +
               stuScores[x] + "\n";
        JOptionPane.showMessageDialog(null, outString); 
    }
