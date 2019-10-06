@@ -18,7 +18,7 @@ public class JSandwich extends JFrame implements ItemListener
     double[] meatCosts = {8.50, 6.50, 7.50};
     double sumPrice = meatCosts[0];
     double breadPrice = 0;
-    double meatCost = meatPrices[0];
+    double meatCost = meatCosts[0];
     double[] breadPrices = {0, 1, 1.5};
     String output;
     public JSandwich()
