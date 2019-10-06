@@ -8,10 +8,10 @@ import java.awt.event.*;
 public class JBookQuote2 extends JFrame implements ActionListener
 {
    FlowLayout flow = new FlowLayout();
-   JLabel msg1 = new  JLabel("To begin with,");
-   JLabel msg2 = new JLabel("Marley was dead.");
-   JButton button = new JButton("Click for source");
-   JLabel msg3 = new JLabel("**    A Christmas Carol    **");
+   JLabel msg1 = new  JLabel("You don't have to live forever,");
+   JLabel msg2 = new JLabel("you just have to live.");
+   JButton button = new JButton("Click for book source");
+   JLabel msg3 = new JLabel("**    Tuck Everlasting by Natalie Babbitt    **");
    public JBookQuote2()
    {
       super("Book Quote 2");
