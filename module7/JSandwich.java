@@ -15,10 +15,10 @@ public class JSandwich extends JFrame implements ItemListener
     JLabel breadList = new JLabel("Choice of Bread");
     JTextField totalPrice = new JTextField(10);
     int mainNumber, breadNumber;
-    double[] meatCost = {8.50, 6.50, 7.50};
-    double sumPrice = mainPrices[0];
+    double[] meatCosts = {8.50, 6.50, 7.50};
+    double sumPrice = meatCosts[0];
     double breadPrice = 0;
-    double mainPrice = mainPrices[0];
+    double meatCost = meatPrices[0];
     double[] breadPrices = {0, 1, 1.5};
     String output;
     public JSandwich()
@@ -59,8 +59,8 @@ public class JSandwich extends JFrame implements ItemListener
         if (source == meatBox)
         {
            mainNumber = meatBox.getSelectedIndex();
-           mainPrice = mainPrices[mainNumber];
-           sumPrice = mainPrice + breadPrice;
+           meatCost = meatCosts[mainNumber];
+           sumPrice = meatCost + breadPrice;
            output = "Total Price $" + sumPrice;
            totalPrice.setText(output);
         }
@@ -68,7 +68,7 @@ public class JSandwich extends JFrame implements ItemListener
         {
            breadNumber = breadBox.getSelectedIndex();
            breadPrice = breadPrices[breadNumber];
-           sumPrice = mainPrice + breadPrice;
+           sumPrice = meatCost + breadPrice;
            output = "Total Price $" + sumPrice;
            totalPrice.setText(output);
         }
