@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="261.0" prefWidth="385.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="fxfacts.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="147.0" layoutY="171.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label id="L1" fx:id="L1" layoutX="147.0" layoutY="71.0" minHeight="16" minWidth="69" text="Fact 1" />
+      <Label id="L2" fx:id="L2" layoutX="157.0" layoutY="81.0" minHeight="16" minWidth="69" text="Fact 2" visible="false" />
+      <Label id="L3" fx:id="L3" layoutX="167.0" layoutY="91.0" minHeight="16" minWidth="69" text="Fact 3" visible="false" />
+      <Label id="L4" fx:id="L4" layoutX="177.0" layoutY="101.0" minHeight="16" minWidth="69" text="Fact 4" visible="false" />
+      <Label id="L5" fx:id="L5" layoutX="187.0" layoutY="111.0" minHeight="16" minWidth="69" text="Fact 5" visible="false" />
+      <Label id="L6" fx:id="L6" layoutX="197.0" layoutY="121.0" minHeight="16" minWidth="69" text="Fact 6" visible="false" />
+    </children>
+</AnchorPane>
